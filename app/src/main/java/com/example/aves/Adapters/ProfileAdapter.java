@@ -1,4 +1,4 @@
-package com.example.aves;
+package com.example.aves.Adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,7 +10,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.aves.Listners.ListItemClickListner;
 import com.example.aves.Models.AvesProfile;
+import com.example.aves.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

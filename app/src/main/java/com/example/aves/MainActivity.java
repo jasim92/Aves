@@ -8,7 +8,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.example.aves.Adapters.ProfileAdapter;
 import com.example.aves.ApiServices.ApiController;
+import com.example.aves.Listners.ListItemClickListner;
 import com.example.aves.Models.AvesProfile;
 
 import java.util.ArrayList;
@@ -18,7 +20,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class MainActivity extends AppCompatActivity implements ListItemClickListner{
+public class MainActivity extends AppCompatActivity implements ListItemClickListner {
 
     private RecyclerView profileRc;
 
